@@ -68,28 +68,28 @@ def imc():
     print(f'IMC: {imc:.2f}')
 
     if imc < 16:
-        print("Seu estado é de Magreza grave\nProcure um médico ou nutricionista.")
+        print("Seu estado é de Magreza grave.")
 
     elif imc < 17:
-        print("Seu estado é de Magreza moderada\nPrecisa rever sua alimentação.")
+        print("Seu estado é de Magreza moderada.")
 
     elif imc < 18.5:
-        print("Seu estado é de Magreza leve\nPrecisa rever sua alimentação.")
+        print("Seu estado é de Magreza leve.")
 
     elif imc < 25:
-        print("Você está Saudável.\nParabéns!")
+        print("Você está Saudável.")
 
     elif imc < 30:
-        print("Seu estado é de Sobrepeso\nPrecisa rever sua alimentação.")
+        print("Seu estado é de Sobrepeso.")
 
     elif imc < 35:
-        print("Seu estado é de Obesidade Grau I\nProcure um médico ou nutricionista.")
+        print("Seu estado é de Obesidade Grau I.")
 
     elif imc < 40:
-        print("Seu estado é de Obesidade Grau II (severa)\nProcure um médico ou nutricionista.")
+        print("Seu estado é de Obesidade Grau II (severa).")
 
     else:
-        print("Seu estado é de Obesidade Grau III (mórbida)\nProcure um médico ou nutricionista.")
+        print("Seu estado é de Obesidade Grau III (mórbida).")
 
 #MENU PRINCIPAL
 while True:
